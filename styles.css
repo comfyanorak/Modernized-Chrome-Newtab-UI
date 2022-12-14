@@ -1,4 +1,13 @@
 html {
     background-color: #00ab7d;
     color: #6d3c62;
+    margin: 0;
+}
+.content-area {
+    background-color: white;
+    margin: 50px;
+    color: #000;
+}
+.search-box {
+    
 }
