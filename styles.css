@@ -10,6 +10,10 @@ html {
     width: 94.5%%;
     height: 90%;
 }
+.content-area h1 {
+    align: center;
+    color: #2cdbcc;
+}
 .search-box {
 
 }
