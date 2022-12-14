@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "rename this later",
+    "version": "0.1",
+    "description": "This project was made to modernize the Chrome Newtab and give it more aesthetics. Extensions like this already exist but I wanted to make my own so whatever I guess.",
+    "author": "5P1CY_P1ZZ4#6038",
+    "chrome_url_overrides" : {
+      "newtab": "index.html"
+    },
+    "permissions": [
+
+    ],
+    "icons": {
+      "16": "icon16.png",
+      "128": "icon128.png"
+    }
+  }
