@@ -34,6 +34,7 @@ html {
     transition: 0.5s;
 }  
 .overlay-content {
+    overflow: hidden;
     position: relative;
     top: 25%;
     width: 100%;
