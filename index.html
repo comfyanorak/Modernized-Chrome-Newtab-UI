@@ -9,11 +9,27 @@
     <body>
         <div class="content-area"> 
             <h1 align="center">Hello!</h1>
-            
         </div>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav1()">&times;</a>
+            <div class="overlay-content">
+                <h1>Yes it's open</h1>
+            </div>
+          </div>
+
         <footer>
             <div class="footer">
-              <p><a href="#menu"><i class="fa fa-bars"></i></a> | <a href="#search"><i class="fa fa-search"></i></a> | <a href="#source"><i class="fa fa-cog"></i></a></p>           </div>
+              <p><a onclick="openNav1()"><i class="fa fa-bars"></i></a> | <a href="#search"><i class="fa fa-search"></i></a> | <a href="#source"><i class="fa fa-cog"></i></a></p>           </div>
           </footer>
     </body>
+    <script>
+        function openNav1() {
+          document.getElementById("myNav1").style.width = "100%";
+        }
+        
+        function closeNav1() {
+          document.getElementById("myNav1").style.width = "0%";
+        }
+        </script>
 </html>
