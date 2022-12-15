@@ -22,3 +22,8 @@ html {
     color: #00ff15;
     margin: 10px;
 }
+.footer i {
+    color: #00ff15;
+    font-size: 24px;
+    text-decoration: none;
+}
