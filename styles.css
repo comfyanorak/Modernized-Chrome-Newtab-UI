@@ -22,15 +22,6 @@ html {
     color: #00ff15;
     margin: 10px;
 }
-.footer span {
-    cursor:pointer;
-}
-.footer i {
-    color: #00ff15;
-    font-size: 24px;
-    text-decoration: none;
-}
-
 .overlay {
     height: 100%;
     width: 0;
@@ -38,26 +29,23 @@ html {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #2f2f2fbb;
+    background-color: #161616c5;
     overflow-x: hidden;
     transition: 0.5s;
-  }
-  
-  .overlay-content {
+}  
+.overlay-content {
     position: relative;
     top: 25%;
     width: 100%;
     text-align: center;
     margin-top: 30px;
-  }
-  
-  .overlay .closebtn {
+}
+.overlay .closebtn {
     position: absolute;
     top: 20px;
     right: 45px;
     font-size: 60px;
-  }
-  
+}  
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -66,3 +54,11 @@ html {
     right: 35px;
     }
   }
+.footer span {
+    cursor:pointer;
+}
+.footer i {
+    color: #00ff15;
+    font-size: 24px;
+    text-decoration: none;
+}
