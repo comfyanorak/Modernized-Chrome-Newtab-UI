@@ -21,3 +21,16 @@ function closeNav3() {
  btn.addEventListener("click", closeNav1);
  btn.addEventListener("click", closeNav2);
  btn.addEventListener("click", closeNav3);
+
+ var btn1 = document.getElementById("button");
+ var btn2 = document.getElementById("button");
+ var btn3 = document.getElementById("button");
+
+ btn1.addEventListener("click", closeNav2);
+ btn1.addEventListener("click", closeNav3);
+
+ btn2.addEventListener("click", closeNav1);
+ btn2.addEventListener("click", closeNav3);
+
+ btn3.addEventListener("click", closeNav1);
+ btn3.addEventListener("click", closeNav2);
