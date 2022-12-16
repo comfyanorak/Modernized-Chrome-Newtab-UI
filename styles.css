@@ -1,6 +1,7 @@
 html {
    /** background-color: #2f2f2f; **/
     background-image: url("test-bg.jpg");
+    background-repeat: none;
     color: #00ff15;
     font-family: Orbitron; 
     margin: 0;
