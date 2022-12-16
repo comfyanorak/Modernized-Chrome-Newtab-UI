@@ -76,3 +76,15 @@ html {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+
+
+
+
+
+custom-element .right {
+    margin: 15px;
+}
+custom-element .left {
+    margin: 15px;
+}
