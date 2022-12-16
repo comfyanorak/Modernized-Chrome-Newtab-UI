@@ -82,9 +82,16 @@ html {
 
 
 
-custom-element .right {
+
+
+
+
+
+
+
+.span-right-margin {
     margin-right: 15px;
 }
-custom-element .left {
+.span-left-margin {
     margin-left: 15px;
 }
