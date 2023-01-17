@@ -16,8 +16,8 @@ function openNav3() {
 function closeNav3() {
     document.getElementById("myNav3").style.width = "0%";
 }
- var btn = document.getElementById("button");
+ // var btn = document.getElementById("button");
 
- btn.addEventListener("click", closeNav1);
- btn.addEventListener("click", closeNav2);
- btn.addEventListener("click", closeNav3);
+//  btn.addEventListener("click", closeNav1);
+//  btn.addEventListener("click", closeNav2);
+//  btn.addEventListener("click", closeNav3);
