@@ -11,31 +11,6 @@ html {
     background-color: transparent;
     color: #00ff15;
 }
-.overlay {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #161616c5;
-    overflow-x: hidden;
-    transition: 0.5s;
-}  
-.overlay-content {
-    overflow: hidden;
-    position: relative;
-    top: 25%;
-    width: 100%;
-    text-align: center;
-    margin-top: 45px;
-}
-.overlay .closebtn {
-    position: absolute;
-    top: 20px;
-    right: 45px;
-    font-size: 30px;
-} 
   @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
     .overlay .closebtn {
@@ -44,14 +19,6 @@ html {
     right: 35px;
     }
   }
-.menu-thumbnail {
-    border: 2px solid #00ff15;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 5px; 
-    height: 110px;
-    width: 110px; 
-}
 /**FOOTER AREA: CONTAINS FOOTER AND MENU**/
 .footer span {
     cursor:pointer;
